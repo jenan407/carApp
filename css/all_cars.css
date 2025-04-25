@@ -1,0 +1,65 @@
+
+    
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav {
+    background-color: #708090;
+    color: balck;
+    padding: 30px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: black;
+} 
+
+
+
+
+
+body {
+    background-color: #f8f9fa !important;
+}
+
+
+.car-card .btn {
+    background-color: silver !important;
+    color: #333 !important; 
+    border: 1px solid #ccc; 
+}
+.car-card .btn:hover {
+    background-color: #d3d3d3 !important;
+    color: #000 !important;
+}
+

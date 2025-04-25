@@ -1,0 +1,188 @@
+
+
+
+.silver-navbar {
+    background-color: #708090 !important; 
+}
+
+
+
+.silver-navbar .navbar-brand,
+.silver-navbar .nav-link {
+    color: #333 !important; 
+}
+
+.silver-navbar .nav-link:hover,
+.silver-navbar .nav-link:focus {
+    color: #000 !important; 
+}
+
+.silver-navbar .navbar-toggler-icon {
+    background-color: #333; 
+}
+
+
+body {
+    background-color: #f9f9f9!important;
+}
+  
+         .profile-container {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 900px;
+            margin: 30px auto;
+        }
+
+        .profile-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 15px;
+            border: 5px solid #ddd;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-info p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+
+        .profile-info strong {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .owned-cars h2 {
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .car-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .car-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+        }
+
+        .car-image-container {
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .car-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .car-details {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .car-details h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .car-details p {
+            margin-bottom: 5px;
+            color: #777;
+        }
+
+        .no-cars {
+            text-align: center;
+            color: #777;
+        }
+
+        .change-password-section {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        .change-password-section h3 {
+            color: #333;
+            margin-top: 0;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .change-password-form .form-group {
+            margin-bottom: 15px;
+        }
+
+        .change-password-form label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .change-password-form input[type="password"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 1rem;
+        }
+
+        .change-password-form button {
+            background-color: #708090;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .change-password-form button:hover {
+            background-color: #708090;
+        }
+
+        .password-change-message {
+            margin-top: 15px;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        .password-change-success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .password-change-error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+ 

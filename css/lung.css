@@ -1,0 +1,46 @@
+
+.ar {
+    direction: rtl;
+    text-align: right;
+}
+
+
+.ar .navbar-nav {
+    direction: rtl;
+}
+
+.ar .ml-auto {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+
+.ar .carousel-caption {
+    text-align: right;
+}
+
+
+.ar .car-grid {
+    direction: rtl;
+}
+
+.ar .car-card {
+    text-align: right;
+}
+
+
+.ar .review-grid {
+    direction: rtl;
+}
+
+.ar .review-card {
+    text-align: right;
+}
+
+
+.ar footer {
+    direction: rtl;
+    text-align: right;
+}
+
+

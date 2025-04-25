@@ -1,0 +1,366 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav {
+    background-color: #708090;
+    color: balck;
+    padding: 30px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: black;
+} 
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 500px; 
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.7;
+}
+
+.container {
+    padding: 20px;
+    
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.latest-cars,
+.featured-cars,
+.sold-cars,
+.comments {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+   
+}
+
+
+body {
+    background-color: silver !important;
+    
+}
+
+
+.car-card .btn {
+    background-color: silver !important;
+    color: #333 !important; 
+    border: 1px solid #ccc;
+}
+
+.car-card .btn:hover {
+    background-color: #d3d3d3 !important; 
+    color: #000 !important;
+}
+
+.input-group-append .btn-primary {
+    background-color: silver !important;
+    color: #333 !important;
+    border-color: #ccc !important;
+}
+
+.input-group-append .btn-primary:hover {
+    background-color: #d3d3d3 !important;
+    color: #000 !important;
+}
+.latest-cars h2,
+.featured-cars h2,
+.sold-cars h2,
+.comments h2 {
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #5b5b5c;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    
+}
+
+.mt-3 {
+    text-align: center;
+}
+.car-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.car-card {
+    flex: 0 0 calc(33.33% - 20px); 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+}
+
+.car-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1px solid #eee;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.car-card h3 {
+    padding: 10px;
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
+.car-card p {
+    padding: 0 10px;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.car-card .btn {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    background-color: silver; 
+    color: #333; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    padding: 8px 12px;
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+.car-card .btn:hover {
+    background-color: #d3d3d3; 
+}
+
+.review-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.review-card {
+    flex: 0 0 calc(50% - 20px);
+    padding: 15px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.review-card h6 {
+    color: #777;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.review-card p {
+    margin-bottom: 10px;
+}
+
+.comments .btn {
+    margin-right: 10px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #eee;
+    text-align: center;
+}
+
+footer .btn {
+    margin: 0 10px;
+}
+
+.ad-banner {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.ad-banner a {
+    display: inline-block; 
+    max-width: 100%; 
+}
+
+.ad-banner img {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+
+#bottom-ads-container .ad-banner a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit; 
+}
+
+#bottom-ads-container .ad-banner .ad-image {
+    max-width: 60%; 
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#bottom-ads-container .ad-banner .ad-text {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+    .car-grid {
+        flex-direction: column;
+    }
+    .car-card {
+        flex: 0 0 100%;
+    }
+    .review-grid {
+        flex-direction: column;
+    }
+    .review-card {
+        flex: 0 0 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .navbar-nav .nav-link {
+        padding: 0.5rem;
+    }
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+    }
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+}
+
+.ar .navbar-nav {
+    direction: rtl;
+}
+
+.ar .navbar-nav .nav-link {
+    text-align: right;
+}
+
+.ar .navbar-nav h5 {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+.ar .navbar-nav select {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+.ar .input-group input {
+    text-align: right;
+}
+
+.ar .comments .btn {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.ar footer .btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ad-banner {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.ad-banner img {
+    max-width: 40%;
+    height: auto;
+}
+
+
+
+
+body {
+    background-color:#d3d3d3 !important;
+}
+
+
+.car-card .btn {
+    background-color: #708090 !important;
+    color: #333 !important;
+    border: 1px solid #ccc;
+}
+
+.car-card .btn:hover {
+    background-color: #d3d3d3 !important; 
+    color: #000 !important;
+}

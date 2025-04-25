@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #708090;
+    color: balck;
+    padding: 30px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+.car-details-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.car-title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.car-info-row {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.car-info-label {
+    font-weight: bold;
+    color: #555;
+    width: 100px;
+}
+
+.car-info-value {
+    color: #333;
+    flex-grow: 1;
+}
+
+.car-images-section {
+    margin-top: 30px;
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+
+.car-images-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.car-image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.car-image-gallery img {
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.car-description-section {
+    margin-top: 30px;
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.car-description-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.car-description-text {
+    color: #333;
+    line-height: 1.6;
+}
+
+.seller-info-section {
+    margin-top: 30px;
+    border-top: 2px solid #eee;
+    padding-top: 20px;
+}
+
+.seller-info-title {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.seller-info-row {
+    margin-bottom: 10px;
+}
+
+.seller-info-label {
+    font-weight: bold;
+    color: #555;
+    width: 150px;
+}
+
+.seller-info-value {
+    color: #007bff; 
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+.sold-badge {
+    background-color: #a73f28;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
+
+.not-sold-badge {
+    background-color: #35dc3d;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin-left: 10px;
+}
